@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta <!name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<style>
+    body {
+        background-image: url(Traveler.jfif); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        min-height: 50vh; 
+      }
+    table {
+        width: 50%;
+    }
+    td {
+        padding: 15px;
+    }
+    input[type="text"], input[type="password"], input[type="date"], input[type="file"] {
+        width: 90%; 
+        padding: 10px; 
+    }
+</style>
+<body>
+    <form action="">
+        <table>
+        <tr>
+            <td colspan="4"><h1>REGISTRASI</h1></td>
+        </tr>
+        <tr>
+            <td><label for="Nama_Depan"> <b>Nama Depan</b></label></td>
+            <td><input type="text" id="NamaDepan"></td>
+        </tr>
+        <tr>
+            <td><label for="Nama_Belakang"><b>Nama Belakang</b></label></td>
+            <td><input type="text" id="NamaBelakang"></td>
+        </tr>
+        <tr>
+            <td><label for="Alamat"><b>Alamat</b></label></td>
+            <td><input type="text" id="Alamat"></td>
+        </tr>
+        <tr>
+            <td><label for="Tanggal_Lahir"><b>Tanggal Lahir</b></label></td>
+            <td><input type="date" id="TanggalLahir"><br></td>
+        </tr>
+        <tr>
+            <td><label><b>Jenis Kelamin</b></label></td>
+            <td>
+                <input type="radio" id="Kelamin" name="Kelamin" value="Laki-laki">
+                <label for="Kelamin">Laki-laki</label> 
+                <input type="radio" id="Kelamin" name="Kelamin" value="Perempuan">
+                <label for="Kelamin">Perempuan</label>
+            </td>  
+        </tr>
+        <tr>
+            <td><label for="Username"><b>Username</b></label></td>
+            <td><input type="text" id="Username"><br></td>  
+        </tr>
+        <tr>
+            <td><label for="Password"><b>Password</b></label></td>
+            <td><input type="password" id="Password"><br></td>
+        </tr>
+        <tr>
+            <td><label for="BrowseFoto"><b>Browse Foto</b></label></td>
+            <td><input type="file" name="gambar" id="BrowseFoto"></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
